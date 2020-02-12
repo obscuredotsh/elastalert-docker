@@ -32,9 +32,10 @@ and we're good to go. The elastalert container connects to the desired port and 
 elastalert config yaml's are in ./elastalert-docker/example_rules.
 ./elastalert-docker/example_rules/example_frequency.yaml is a slack integration example.
 
-bash shell can be achieved anytime 
-`
-via docker exec -it $container_id bash
+bash shell can be achieved anytime via:
+``` 
+docker exec -it $container_id bash
+```
 
 ## Author Info 
 prateerickaien@gmail.com || report for bugs
