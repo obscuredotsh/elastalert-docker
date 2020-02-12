@@ -22,6 +22,7 @@ es_host is the address of an Elasticsearch cluster where ElastAlert will store d
 es_port is the port corresponding to es_host.
 ```
 ##
+COMMANDS:
 ```
 docker build -t elastalert-docker 
 docker run -it elastalert-docker
