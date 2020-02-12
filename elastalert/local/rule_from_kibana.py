@@ -1,0 +1,1 @@
+/opt/elastalert/elastalert/rule_from_kibana.py

@@ -1,0 +1,131 @@
+actionid=tox
+msg=packaging
+cmdargs=['/usr/bin/python3', local('/home/elastalert/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/elastalert/.tox/dist')]
+env=None
+running sdist
+running egg_info
+writing elastalert.egg-info/PKG-INFO
+writing dependency_links to elastalert.egg-info/dependency_links.txt
+writing entry points to elastalert.egg-info/entry_points.txt
+writing requirements to elastalert.egg-info/requires.txt
+writing top-level names to elastalert.egg-info/top_level.txt
+reading manifest file 'elastalert.egg-info/SOURCES.txt'
+writing manifest file 'elastalert.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+creating elastalert-0.2.1
+creating elastalert-0.2.1/elastalert
+creating elastalert-0.2.1/elastalert.egg-info
+creating elastalert-0.2.1/elastalert/es_mappings
+creating elastalert-0.2.1/elastalert/es_mappings/5
+creating elastalert-0.2.1/elastalert/es_mappings/6
+creating elastalert-0.2.1/tests
+copying files to elastalert-0.2.1...
+copying README.md -> elastalert-0.2.1
+copying setup.cfg -> elastalert-0.2.1
+copying setup.py -> elastalert-0.2.1
+copying elastalert/__init__.py -> elastalert-0.2.1/elastalert
+copying elastalert/alerts.py -> elastalert-0.2.1/elastalert
+copying elastalert/auth.py -> elastalert-0.2.1/elastalert
+copying elastalert/config.py -> elastalert-0.2.1/elastalert
+copying elastalert/create_index.py -> elastalert-0.2.1/elastalert
+copying elastalert/elastalert.py -> elastalert-0.2.1/elastalert
+copying elastalert/enhancements.py -> elastalert-0.2.1/elastalert
+copying elastalert/kibana.py -> elastalert-0.2.1/elastalert
+copying elastalert/kibana_discover.py -> elastalert-0.2.1/elastalert
+copying elastalert/loaders.py -> elastalert-0.2.1/elastalert
+copying elastalert/opsgenie.py -> elastalert-0.2.1/elastalert
+copying elastalert/rule_from_kibana.py -> elastalert-0.2.1/elastalert
+copying elastalert/ruletypes.py -> elastalert-0.2.1/elastalert
+copying elastalert/schema.yaml -> elastalert-0.2.1/elastalert
+copying elastalert/test_rule.py -> elastalert-0.2.1/elastalert
+copying elastalert/util.py -> elastalert-0.2.1/elastalert
+copying elastalert/zabbix.py -> elastalert-0.2.1/elastalert
+copying elastalert.egg-info/PKG-INFO -> elastalert-0.2.1/elastalert.egg-info
+copying elastalert.egg-info/SOURCES.txt -> elastalert-0.2.1/elastalert.egg-info
+copying elastalert.egg-info/dependency_links.txt -> elastalert-0.2.1/elastalert.egg-info
+copying elastalert.egg-info/entry_points.txt -> elastalert-0.2.1/elastalert.egg-info
+copying elastalert.egg-info/requires.txt -> elastalert-0.2.1/elastalert.egg-info
+copying elastalert.egg-info/top_level.txt -> elastalert-0.2.1/elastalert.egg-info
+copying elastalert/es_mappings/5/elastalert.json -> elastalert-0.2.1/elastalert/es_mappings/5
+copying elastalert/es_mappings/5/elastalert_error.json -> elastalert-0.2.1/elastalert/es_mappings/5
+copying elastalert/es_mappings/5/elastalert_status.json -> elastalert-0.2.1/elastalert/es_mappings/5
+copying elastalert/es_mappings/5/past_elastalert.json -> elastalert-0.2.1/elastalert/es_mappings/5
+copying elastalert/es_mappings/5/silence.json -> elastalert-0.2.1/elastalert/es_mappings/5
+copying elastalert/es_mappings/6/elastalert.json -> elastalert-0.2.1/elastalert/es_mappings/6
+copying elastalert/es_mappings/6/elastalert_error.json -> elastalert-0.2.1/elastalert/es_mappings/6
+copying elastalert/es_mappings/6/elastalert_status.json -> elastalert-0.2.1/elastalert/es_mappings/6
+copying elastalert/es_mappings/6/past_elastalert.json -> elastalert-0.2.1/elastalert/es_mappings/6
+copying elastalert/es_mappings/6/silence.json -> elastalert-0.2.1/elastalert/es_mappings/6
+copying tests/__init__.py -> elastalert-0.2.1/tests
+copying tests/alerts_test.py -> elastalert-0.2.1/tests
+copying tests/auth_test.py -> elastalert-0.2.1/tests
+copying tests/base_test.py -> elastalert-0.2.1/tests
+copying tests/conftest.py -> elastalert-0.2.1/tests
+copying tests/create_index_test.py -> elastalert-0.2.1/tests
+copying tests/elasticsearch_test.py -> elastalert-0.2.1/tests
+copying tests/kibana_discover_test.py -> elastalert-0.2.1/tests
+copying tests/kibana_test.py -> elastalert-0.2.1/tests
+copying tests/loaders_test.py -> elastalert-0.2.1/tests
+copying tests/rules_test.py -> elastalert-0.2.1/tests
+copying tests/util_test.py -> elastalert-0.2.1/tests
+Writing elastalert-0.2.1/setup.cfg
+creating '.tox/dist/elastalert-0.2.1.zip' and adding 'elastalert-0.2.1' to it
+adding 'elastalert-0.2.1'
+adding 'elastalert-0.2.1/elastalert'
+adding 'elastalert-0.2.1/tests'
+adding 'elastalert-0.2.1/elastalert.egg-info'
+adding 'elastalert-0.2.1/setup.py'
+adding 'elastalert-0.2.1/README.md'
+adding 'elastalert-0.2.1/setup.cfg'
+adding 'elastalert-0.2.1/PKG-INFO'
+adding 'elastalert-0.2.1/elastalert/es_mappings'
+adding 'elastalert-0.2.1/elastalert/opsgenie.py'
+adding 'elastalert-0.2.1/elastalert/kibana.py'
+adding 'elastalert-0.2.1/elastalert/__init__.py'
+adding 'elastalert-0.2.1/elastalert/create_index.py'
+adding 'elastalert-0.2.1/elastalert/test_rule.py'
+adding 'elastalert-0.2.1/elastalert/alerts.py'
+adding 'elastalert-0.2.1/elastalert/zabbix.py'
+adding 'elastalert-0.2.1/elastalert/ruletypes.py'
+adding 'elastalert-0.2.1/elastalert/rule_from_kibana.py'
+adding 'elastalert-0.2.1/elastalert/config.py'
+adding 'elastalert-0.2.1/elastalert/loaders.py'
+adding 'elastalert-0.2.1/elastalert/schema.yaml'
+adding 'elastalert-0.2.1/elastalert/enhancements.py'
+adding 'elastalert-0.2.1/elastalert/kibana_discover.py'
+adding 'elastalert-0.2.1/elastalert/util.py'
+adding 'elastalert-0.2.1/elastalert/auth.py'
+adding 'elastalert-0.2.1/elastalert/elastalert.py'
+adding 'elastalert-0.2.1/elastalert/es_mappings/6'
+adding 'elastalert-0.2.1/elastalert/es_mappings/5'
+adding 'elastalert-0.2.1/elastalert/es_mappings/6/elastalert_status.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/6/past_elastalert.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/6/elastalert.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/6/elastalert_error.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/6/silence.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/5/elastalert_status.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/5/past_elastalert.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/5/elastalert.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/5/elastalert_error.json'
+adding 'elastalert-0.2.1/elastalert/es_mappings/5/silence.json'
+adding 'elastalert-0.2.1/tests/elasticsearch_test.py'
+adding 'elastalert-0.2.1/tests/__init__.py'
+adding 'elastalert-0.2.1/tests/kibana_test.py'
+adding 'elastalert-0.2.1/tests/kibana_discover_test.py'
+adding 'elastalert-0.2.1/tests/alerts_test.py'
+adding 'elastalert-0.2.1/tests/create_index_test.py'
+adding 'elastalert-0.2.1/tests/util_test.py'
+adding 'elastalert-0.2.1/tests/loaders_test.py'
+adding 'elastalert-0.2.1/tests/rules_test.py'
+adding 'elastalert-0.2.1/tests/base_test.py'
+adding 'elastalert-0.2.1/tests/auth_test.py'
+adding 'elastalert-0.2.1/tests/conftest.py'
+adding 'elastalert-0.2.1/elastalert.egg-info/SOURCES.txt'
+adding 'elastalert-0.2.1/elastalert.egg-info/dependency_links.txt'
+adding 'elastalert-0.2.1/elastalert.egg-info/top_level.txt'
+adding 'elastalert-0.2.1/elastalert.egg-info/entry_points.txt'
+adding 'elastalert-0.2.1/elastalert.egg-info/PKG-INFO'
+adding 'elastalert-0.2.1/elastalert.egg-info/requires.txt'
+removing 'elastalert-0.2.1' (and everything under it)

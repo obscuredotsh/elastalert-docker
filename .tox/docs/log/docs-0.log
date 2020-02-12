@@ -1,0 +1,37 @@
+actionid=docs
+msg=getenv
+cmdargs=['/usr/bin/python3', '-m', 'virtualenv', '--setuptools', '--python', '/usr/bin/python3', 'docs']
+env={'PATH': '/home/elastalert/.tox/docs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '261aa1be04be', 'HOME': '/root', 'PYTHONHASHSEED': '1038814006', 'VIRTUAL_ENV': '/home/elastalert/.tox/docs'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/__main__.py", line 30, in run_with_catch
+    run(args, options)
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/__main__.py", line 12, in run
+    from virtualenv.run import run_via_cli
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/run/__init__.py", line 7, in <module>
+    from ..config.cli.parser import VirtualEnvConfigParser
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/config/cli/parser.py", line 6, in <module>
+    from ..ini import IniConfig
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/config/ini.py", line 8, in <module>
+    from virtualenv.dirs import default_config_dir
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/dirs.py", line 5, in <module>
+    from virtualenv.util.lock import ReentrantFileLock
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/util/lock.py", line 11, in <module>
+    from virtualenv.util.path import Path
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/util/path/__init__.py", line 5, in <module>
+    from ._sync import copy, copytree, ensure_dir, link, symlink
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/util/path/_sync.py", line 7, in <module>
+    from six import PY2, PY3, ensure_text
+ImportError: cannot import name 'ensure_text'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/__main__.py", line 41, in <module>
+    run_with_catch()
+  File "/usr/local/lib/python3.6/dist-packages/virtualenv/__main__.py", line 32, in run_with_catch
+    if options.with_traceback:
+AttributeError: 'Namespace' object has no attribute 'with_traceback'

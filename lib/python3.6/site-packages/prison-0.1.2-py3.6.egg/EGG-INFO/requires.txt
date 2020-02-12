@@ -1,0 +1,6 @@
+six
+
+[dev]
+nose
+pipreqs
+twine

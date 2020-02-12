@@ -1,0 +1,24 @@
+--- 
+name: PublicIP
+type: frequency
+type: frequency
+ 
+index: nfs-test
+ 
+num_events: 2
+ 
+timeframe:
+  hours: 4
+ 
+filter:
+- query_string:
+    query: "message:uid is invalid"
+
+alert:
+  - "slack"
+slack:
+slack_webhook_url: "https://hooks.slack.com/services/REGERG/BWEFwS2Y/SmVKNlewfeweffwefweHR"
+slack_username_override: "ELK-Alerts"
+slack_channel_override: "elk-alerts-prod"
+slack_emoji_override: ":robot_face:"
+slack_msg_color: "danger"

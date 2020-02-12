@@ -1,0 +1,1 @@
+/opt/elastalert/elastalert/test_rule.py

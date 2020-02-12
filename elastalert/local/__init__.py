@@ -1,0 +1,1 @@
+/opt/elastalert/elastalert/__init__.py
