@@ -6,7 +6,7 @@ Setting up elastalert on docker || Python 3.6 || Dockerfile
 Had been seeing a lot of error reporting on elastalert compatibilty in ubuntu 14, ubuntu16 and systems based with python v2.x 
 
 Steps:
-clone this repo : git clone https://github.com/Yelp/elastalert-docker.git
+clone this repo : git clone https://github.com/Yelp/elastalert.git
 
 ## Usage
 
